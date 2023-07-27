@@ -1,0 +1,27 @@
+.home {
+  width: 100vw;
+}
+.home .tabs-wrapper {
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  border-radius: 10px;
+}
+.home .tabs-wrapper .tabs {
+  width: 100%;
+  padding: 10px;
+}
+.home .tabs-wrapper .tab {
+  font-weight: bolder !important;
+}
+.home .documents-wrapper {
+  margin-top: 20px;
+}
+.home .documents-wrapper .document-card {
+  width: 100%;
+}
+.home .card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 20px;
+}/*# sourceMappingURL=Home.css.map */

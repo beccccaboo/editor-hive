@@ -1,0 +1,27 @@
+p{
+    text-align: center;
+}
+
+
+
+.contact-form-wrapper{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .btn{
+        margin:10px;
+        background: none !important;
+        border: 1px solid rgb(68, 68, 230) !important;
+        color:black;
+        transition:.2s ease-in-out;
+        &:hover{
+            background-color: rgb(68, 68, 230) !important;
+            color: white;
+        }
+    }
+
+    
+}

@@ -1,0 +1,63 @@
+.modal-wrapper {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(128, 128, 128, 0.3);
+    display: grid;
+    place-items: center;
+
+    .modal-contents {
+        height: 40%;
+        width: 40%;
+        background-color: white;
+        padding: 10px;
+        position: relative;
+        border-radius: 10px;
+
+        .close-modal-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+
+        .accesSelector {
+            width: 100%;
+        }
+
+        .share-btn-wrapper {
+            display: flex;
+            gap: 20px;
+        }
+
+
+
+       
+        .share-link-wrapper{
+            display: flex;
+            gap: 10px;
+            width: 100%;
+            margin-top: 20px;
+            margin-right: 20px;
+            position: relative;
+            h5 {
+                background-color: rgb(88, 88, 252);
+                color: white;
+                padding: 20px;
+                border-radius: 10px;
+            }
+
+            .copy-icon {
+                position: absolute;
+                cursor: pointer;
+                top: 30px;
+                right: 10px;
+            }
+        }
+        
+
+
+
+    }
+}

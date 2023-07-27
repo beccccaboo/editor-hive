@@ -1,0 +1,38 @@
+.modal-wrapper {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(128, 128, 128, 0.415);
+  display: grid;
+  place-items: center;
+}
+.modal-wrapper .modal-contents {
+  height: 35%;
+  width: 50%;
+  padding: 10px;
+  border-radius: 10px;
+  position: relative;
+  background-color: white;
+  display: grid;
+  place-items: center;
+}
+.modal-wrapper .modal-contents .close-modal-btn {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.modal-wrapper .modal-contents .document-title {
+  border: none;
+  width: 40%;
+  border-bottom: 1px solid rgb(173, 173, 173);
+  padding: 10px;
+  font-weight: bold;
+  transition: 0.3s ease-in-out;
+}
+.modal-wrapper .modal-contents .document-title:focus {
+  outline: none;
+  width: 45%;
+  border-bottom: 3px solid black;
+}/*# sourceMappingURL=MemberConfigurationModal.css.map */
